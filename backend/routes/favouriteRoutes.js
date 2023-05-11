@@ -10,7 +10,7 @@ const {
 
 const router = express.Router();
 // search request to get search results.
-router.post("/", getSearchResults);
+router.post("/search", getSearchResults);
 // get request to get fav items.
 router.get("/fav", getAllFavourites);
 // post request to add fav item.
