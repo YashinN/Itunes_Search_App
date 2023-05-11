@@ -20,13 +20,16 @@ const Favourites = (props) => {
   // removes fav item from list makes delete req to server.
   const deleteFav = async (id) => {
     // delete req using id arg.
-    const response = await fetch("/fav", {
-      method: "DELETE",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ id: id }),
-    });
+    const response = await fetch(
+      "https://itunessearchapp-production.up.railway.app/fav",
+      {
+        method: "DELETE",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ id: id }),
+      }
+    );
     // recevies new fav items from server after delete.
     const data = await response.json();
     // sets and stores new data received

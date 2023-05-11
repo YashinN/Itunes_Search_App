@@ -17,7 +17,9 @@ function App() {
   const favOnload = async () => {
     try {
       // get request to fetch fav data.
-      const response = await fetch("/fav");
+      const response = await fetch(
+        "https://itunessearchapp-production.up.railway.app/fav"
+      );
       const data = await response.json();
       // stores fav data using state.
       setFavData(data);

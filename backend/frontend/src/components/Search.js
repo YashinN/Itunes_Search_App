@@ -40,14 +40,17 @@ const Search = (props) => {
   // Post request sends search paramters server to perform api request to get search data.
   const searchPostRequest = async () => {
     // Post request to server.
-    const response = await fetch("/", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      // sends media type and search parameter to server.
-      body: JSON.stringify({ media: entity, searchField: enteredSearch }),
-    });
+    const response = await fetch(
+      "https://itunessearchapp-production.up.railway.app/",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        // sends media type and search parameter to server.
+        body: JSON.stringify({ media: entity, searchField: enteredSearch }),
+      }
+    );
     // receives search results from server.
     const data = await response.json();
     // stores the search results in prop from App.js.

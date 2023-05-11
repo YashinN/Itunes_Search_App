@@ -7,13 +7,16 @@ const Display = (props) => {
   // Post request to server to add fav item. Takes fav item as arg.
   const addFavourite = async (item) => {
     // fetch request to server.
-    const response = await fetch("/fav", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(item[0]),
-    });
+    const response = await fetch(
+      "https://itunessearchapp-production.up.railway.app//fav",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(item[0]),
+      }
+    );
     // gets list of fav items from server.
     const data = await response.json();
     // sets and stores fav items from server.
