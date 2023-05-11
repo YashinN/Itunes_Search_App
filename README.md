@@ -30,6 +30,6 @@ https://monumental-eclair-2fdb72.netlify.app/
 ## Testing
 - Run frontend tests from the ***/frontend*** directory using ***npm test***.  
 - Run backend tests from the ***/backend***  directory using ***npm test***.
-- ***JEST*** is used fro testing both backend and frontend.
+- ***JEST*** is used for testing both backend and frontend.
 
 
