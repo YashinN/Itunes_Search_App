@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "wrapperType": "track",
+    "kind": "feature-movie",
+    "trackId": 924370725,
+    "artistName": "James Cameron",
+    "trackName": "Avatar (Extended Collector's Edition)",
+    "trackCensoredName": "Avatar (Extended Collector's Edition)",
+    "trackViewUrl": "https://itunes.apple.com/us/movie/avatar-extended-collectors-edition/id924370725?uo=4",
+    "artworkUrl30": "https://is5-ssl.mzstatic.com/image/thumb/Video49/v4/08/44/9a/08449a54-a8e3-8047-53d5-f8d34254c58b/pr_source.lsr/30x30bb.jpg",
+    "artworkUrl60": "https://is5-ssl.mzstatic.com/image/thumb/Video49/v4/08/44/9a/08449a54-a8e3-8047-53d5-f8d34254c58b/pr_source.lsr/60x60bb.jpg",
+    "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Video49/v4/08/44/9a/08449a54-a8e3-8047-53d5-f8d34254c58b/pr_source.lsr/100x100bb.jpg",
+    "collectionHdPrice": 19.99,
+    "trackHdPrice": 19.99,
+    "releaseDate": "2010-11-16T08:00:00Z",
+    "collectionExplicitness": "notExplicit",
+    "trackExplicitness": "notExplicit",
+    "country": "USA",
+    "currency": "USD",
+    "primaryGenreName": "Sci-Fi & Fantasy",
+    "contentAdvisoryRating": "PG-13",
+    "shortDescription": "Experience the breathtaking world of Avatar as never before with this Extended Collector's Edition!",
+    "longDescription": "Experience the breathtaking world of Avatar as never before with this Extended Collector's Edition! Follow the filmmakers’ journey in the documentary Capturing Avatar, featuring interviews with James Cameron, Jon Landau, the cast and crew. Explore three versions of the film, including over 45 minutes of never-before-seen footage, the Exclusive Alternate Opening on Earth, The Art of Avatar and more!",
+    "hasITunesExtras": true
+  }
+]
