@@ -1,0 +1,35 @@
+.modal-backdrop {
+  z-index: 1035 !important;
+}
+
+.offcanvas {
+  height: 600px !important;
+}
+
+.fav-img {
+  width: 200px;
+  height: 300px;
+}
+
+.fav-img-short {
+  width: 200px !important;
+}
+
+.delete-btn {
+  border-radius: 0 !important;
+  width: 200px;
+  display: block !important;
+}
+
+.fav-desc-container {
+  overflow: auto;
+  height: 100px;
+}
+
+.view-fav-btn {
+  width: 100%;
+  border-radius: 0 !important;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}

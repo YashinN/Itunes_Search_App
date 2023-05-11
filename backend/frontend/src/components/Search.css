@@ -1,0 +1,35 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 600px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-wrapper {
+  margin-top: 15vh;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-label {
+  min-width: 110px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
