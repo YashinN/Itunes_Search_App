@@ -8,7 +8,7 @@ const Display = (props) => {
   const addFavourite = async (item) => {
     // fetch request to server.
     const response = await fetch(
-      "https://itunessearchapp-production.up.railway.app//fav",
+      "https://itunessearchapp-production.up.railway.app/fav",
       {
         method: "POST",
         headers: {

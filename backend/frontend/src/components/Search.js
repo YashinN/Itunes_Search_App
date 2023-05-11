@@ -41,7 +41,7 @@ const Search = (props) => {
   const searchPostRequest = async () => {
     // Post request to server.
     const response = await fetch(
-      "https://itunessearchapp-production.up.railway.app/",
+      "https://itunessearchapp-production.up.railway.app/search",
       {
         method: "POST",
         headers: {

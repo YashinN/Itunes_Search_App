@@ -21,7 +21,7 @@ const Favourites = (props) => {
   const deleteFav = async (id) => {
     // delete req using id arg.
     const response = await fetch(
-      "https://itunessearchapp-production.up.railway.app/fav",
+      "https://itunessearchapp-production.up.railway.app/",
       {
         method: "DELETE",
         headers: {
