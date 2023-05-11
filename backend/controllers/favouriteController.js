@@ -34,7 +34,6 @@ const search = async (searchParam, entity) => {
     const data = await res.json();
     // stores required data.
     let results = data.results;
-    console.log(results);
     return results;
   } catch (err) {
     console.log(err);
